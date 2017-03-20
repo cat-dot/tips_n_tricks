@@ -1,0 +1,13 @@
+# Ever have vim mess up a paste with autoindent?
+
+set pastetoggle=<F2> # in .vimrc
+when you go into insert mode hit F2
+then paste
+or
+manually
+:paste
+:nopaste
+or
+use pathogen
+which does the toggle automatically when you are in insert mode
+https://github.com/ConradIrwin/vim-bracketed-paste
